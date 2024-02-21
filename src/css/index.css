@@ -1,0 +1,139 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    border-style: none;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 800px;
+    background: var(--background);
+}
+.container .conteudoPrincipal{
+    color:var(--branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container .conteudoPrincipal h1{
+     font-size: 2rem;
+     font-family: var(--font-family);
+     font-weight: 900;
+     width: 300px;
+     margin-bottom: 11px;
+     text-wrap: wrap;
+     
+     
+}
+
+.container .conteudoPrincipal p{
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    width: 300px;
+    
+    
+       
+}
+
+.informacao{
+    background-color: var(--branca);
+    width: 340px;
+    height: 380px;
+    margin: 10px;
+    
+}
+.informacao form{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left:20px;
+    font-family: var(--font-family);
+    
+}
+.informacao form textarea{
+    height: 100px;
+    resize: none;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+.informacao form .button{
+    background-color: var(--verde);
+    color: var(--branca);
+    border-style: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+     
+}
+
+.informacao input::placeholder, .textarea::placeholder{
+     color: #ccc;
+     font-size: 1.3rem;
+     font-family: var(--font-family);
+}
+
+.inputs{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    border: 1px solid #000;
+    font-family: var(--font-family);
+     
+    
+}
+.infoCamposObrigatorio{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+}
+
+.camposObrigatorio{
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    
+}
+span{
+    display: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: var(--font-family);
+   
+}
+.verificada{
+    border: 2px solid #37B37D;
+}
+.camposEmBranco{
+    border: 2px solid #DC2431;
+}
+
+
+
+
+
+
+
+

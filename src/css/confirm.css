@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: none;
+    outline: hidden;
+    font-size: 62.5%;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .mensagemConfirmacao{
+    color: #257A17;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+    margin-bottom: 5px;
+}
+
+.container .mensagemContato{
+    font-size: 2rem;
+    font-family: var(--font-family);
+    color: #838383;
+    margin-bottom: 15px;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: darkgreen;
+    font-weight: 500;
+    font-family: var(--font-family);
+    transition: 0.3s ease-in-out;
+}
+
+.container a:hover{
+    color: #9fd696;
+}

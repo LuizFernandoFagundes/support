@@ -1,0 +1,33 @@
+@media(max-width:680px)
+{
+    .container{
+        grid-template-columns: 1fr;
+        
+    }
+    .container .conteudoPrincipal h1{
+        font-size: 1.7rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .container .conteudoPrincipal p{
+        font-size: 1.3rem;
+        text-align: center;        
+    }
+    .informacao{        
+        width: 300px;        
+    }
+
+    .inputs{
+        width: 250px;
+    }
+
+    #some-form .button{
+        width: 250px;
+    }
+    .container .mensagemConfirmacao{
+        font-size: 2rem;
+    }
+    .container .mensagemContato{
+        font-size: 1.5rem;
+    }
+}
